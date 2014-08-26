@@ -1,0 +1,42 @@
+body{ background: #2E2F3D; color: #444; font-family: Verdana, Arial, sans-serif; font-size: 12px; line-height: 1.5; min-height: 100%; padding: 0 0;}
+a{ color: #444; cursor: pointer; text-decoration: none;}
+  a:visited{ color: #aaa;}
+  a:hover{ text-decoration: underline;}
+img{ vertical-align: top;}
+
+/* 19   242530 */
+/* 24   2E2F3D */
+/* 29   37394A */
+/* 44   545670 */
+
+.header{ background: #2E2F3D; height: 60px; margin-bottom: 30px;}
+.logo{ color: rgba(0,0,0,0.7); float: left; font-family: 'Open Sans', Arial, sans-serif; font-size: 24px; font-weight: 300; line-height: 60px; padding: 0 20px;}
+
+.menu{ float: left; font-size: 14px; line-height: 1.25; padding-right: 20px; width: 180px;}
+.menu ul{ margin-bottom: 20px;}
+.menu a{ border-radius: 0 3px 3px 0; color: rgba(0,0,0,0.5); color: #545670; display: block; padding: 4px 6px; text-align: right;}
+  .menu a:hover{ background: #37394A; color: rgba(255,255,255,0.7); text-decoration: underline;}
+  .menu .active a,
+  .menu .active a:hover{ background: #545670; color: white; text-decoration: none;}
+
+.posts{ background: white; float: left; width: 1000px;}
+.post{ border-bottom: 1px solid #ddd; width: 100%;}
+  .post:hover{ background: lightyellow;}
+  .new.post .post-title{ font-weight: bold;}
+.post:after{ clear: both; content: ''; display: block;}
+.post-item{ float: left; padding: 10px; text-align: right; vertical-align: top;}
+.post-category{ width: 100px;}
+.post-category a{ background: hsl(49, 96%, 72%);; color: rgba(0,0,0,0.5); display: inline-block; padding: 2px 6px; white-space: nowrap;}
+.post-views{ color: #aaa; width: 40px; padding-top: 12px;}
+.post-title{ font-size: 16px; line-height: 1.25; text-align: left; width: 750px;}
+.post-replies{ width: 50px;}
+.post-replies a{ background: #eee; display: inline-block; padding: 2px 6px;}
+.post-date{ color: #777; width: 60px; white-space: nowrap;}
+
+.time{ background: #2E2F3D; font-size: 10px; font-weight: bold; padding: 6px 0 0 150px; width: 100%;}
+  .time:first-child{ margin-top: -24px;}
+.time span{ background: #242530; border-radius: 3px 3px 0 0; color: #545670; display: inline-block; font-weight: bold; padding: 2px 6px;}
+
+.last-visit{ display: block; position: relative;}
+.last-visit:before{ background: #ED6C63; content: ''; display: block; height: 1px; left: 0; position: absolute; top: -1px; width: 101%;}
+.last-visit span{ background: #ED6C63; border-radius: 3px 3px 0 0; bottom: 0; color: white; left: 101%; padding: 2px 6px; position: absolute; white-space: nowrap;}
